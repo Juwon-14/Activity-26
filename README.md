@@ -1,0 +1,1 @@
+Activity 26 - This program defines a structure representing a point. Each point has an x and y coordinate, and it utilizes the equality operator (==) and the stream insertion operator (<<) for representation. Point 1 and Point 2 are set with the same values, while Point 3 is different. Through this, the program focuses on the equality and streaming operators.
