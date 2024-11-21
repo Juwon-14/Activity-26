@@ -7,7 +7,6 @@
 
 #include <iostream>
 #include "Point.h"
-using namespace std;
 
 int main() {
     Point p1 = {7, 9};
@@ -15,13 +14,13 @@ int main() {
     Point p3 = {10, 15};
 
     if (p1 == p2) {
-        cout << "p1 is equal to p2" << endl;
+        std::cout << "p1 is equal to p2" << std::endl;
     } else {
-        cout << "p1 is not equal to p2" << endl;
+        std::cout << "p1 is not equal to p2" << std::endl;
     }
 
-    cout << "Point p1: " << p1 << endl;
-    cout << "Point p3: " << p3 << endl;
+    std::cout << "Point p1: " << p1 << std::endl;
+    std::cout << "Point p3: " << p3 << std::endl;
 
     return 0;
 }
